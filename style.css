@@ -1,0 +1,129 @@
+ header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+ }
+ nav > ul {
+    display: flex;    
+ }
+ nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500px;
+ }
+ nav a {
+    text-decoration: none;
+    color:#424242 ;
+ }
+  .header-title{ 
+    color: var(--Dark-01, #131313);
+    font-weight: 700;
+    font-size: 45px;
+ } 
+ .banner{
+    text-align: center;
+    margin: 0px auto;
+ }
+ .banner-title {
+    color:#131313 ;
+    font-size: 64px;
+    font-weight: 700;
+ }
+ .banner-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight:  400;
+ }
+ 
+ .primary-bnt {
+    border-radius: 80x;
+    color:#FFF ;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#FF900E ;
+    padding: 20px 25px;
+    cursor: pointer;
+    margin: 25px;
+   
+ }
+ .banner-image{
+    margin-top: 20px;
+    width: 100%;
+ }
+ main{
+   margin-top: 70px;
+ }
+ .teams-container{
+   display: flex;
+   align-items: center;
+   /* gap: 70px; */
+ }
+ .teams-img-container{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 1.5rem;
+ }
+ .teams-description {
+   
+ }
+ .feature {
+   margin-top: 130px;
+   display: flex;
+   gap: 140px;
+ }
+ .ten-years-badge{
+   border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+width: 342px;
+height: 200px;
+text-align: center;
+padding:42px ;
+position: relative;
+bottom: 100px;
+right: 90px;
+
+ }
+ .ten-years-badge h2{
+   
+font-size: 65px;
+font-weight: 700;
+margin: 0px;
+ }
+ .ten-years-badge p{
+   font-size: 25px;
+font-weight: 500;
+ }
+
+
+ 
+
+
+
+
+
+
+
+ /* responsib media quary */
+ @media screen and ( max-width: 576){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+ }
+@media  screen and (min-width:576) and (max-width:960px) {
+   header{
+     padding: 50px; 
+   }
+   nav{
+    flex-direction: column;
+   }
+}
+ 
