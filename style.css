@@ -71,6 +71,7 @@
  .teams-description {
    
  }
+ /* feature style */
  .feature {
    margin-top: 130px;
    display: flex;
@@ -99,8 +100,17 @@ margin: 0px;
    font-size: 25px;
 font-weight: 500;
  }
+ /* some fact start */
 
-
+.card-container{
+   display: flex;
+   justify-content: space-around;
+}
+/* our sponspores */
+.our-sponspors-logo{
+   display: flex;
+   justify-content: space-around;
+}
  
 
 
